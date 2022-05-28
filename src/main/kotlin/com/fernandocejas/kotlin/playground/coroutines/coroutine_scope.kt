@@ -23,3 +23,4 @@ fun main() = runBlocking { // this: CoroutineScope
 
     println("Coroutine scope is over") // This line is not printed until nested launch completes
 }
+
